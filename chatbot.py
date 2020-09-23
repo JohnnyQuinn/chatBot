@@ -43,7 +43,7 @@ def get_bot_response(user_response):
         plays_Game = True
         return  random.choice(arcade)
     elif plays_Game is False:
-        print(f"\n* Johnny doesn't play {user_response} *\n")
+        print(f"\n* Johnny doesn't play any {user_response} games *\n")
 
 #loop to repeatedly ask user for input and prints response from get_bot_response
 while user_input.lower() != "done":
